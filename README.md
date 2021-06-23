@@ -1,6 +1,6 @@
-
 # JsHook
 
+<<<<<<< HEAD
 ## 设计理念：
    - 让JSHOOK更方便。
 
@@ -77,3 +77,6 @@ window.a=1024;
     console.log(window.a);
 })();
 ```
+=======
+让JSHOOK更方便
+>>>>>>> parent of 880712f (new)

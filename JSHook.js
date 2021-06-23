@@ -54,7 +54,7 @@ class JsHook {
                     func_dealfunctionHook(HookObj, Hookname, newfunction); //抛出给dealfunctionHook处理函数的Hook。
                     break;
                 case "object":
-                    throw new Error('JsHook错误，不能直接Hook类型为object的变量，请使用类：JsHookObject');
+                    throw new Error('JsHook错误，不能直接Hook类型为null的变量，请使用类：JsHookObject');
                     break;
                 case "null":
                     throw new Error('JsHook错误，不能Hook类型为null的变量。');
