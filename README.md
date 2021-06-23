@@ -79,4 +79,3 @@ window.a=1024;
 ```
 =======
 让JSHOOK更方便
->>>>>>> parent of 880712f (new)
