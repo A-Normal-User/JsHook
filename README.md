@@ -49,8 +49,10 @@
     alert("Hook测试完毕。")
 })();
    ```
+
    - Hook某个参数可参考代码：
-   ```javascript
+
+```javascript
    window.a=1024;
 (function () {
     "use strict";
@@ -73,4 +75,4 @@
     window.a=1024;
     console.log(window.a);
 })();
-   ```
+```
