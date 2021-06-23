@@ -15,6 +15,7 @@
    var myalert1= new JsHook;
    ```
    - Hook函数可参考下面的例子：
+
    ```javascript
    (function  () {
     "use strict";
@@ -53,7 +54,7 @@
    - Hook某个参数可参考代码：
 
 ```javascript
-   window.a=1024;
+window.a=1024;
 (function () {
     "use strict";
     if (typeof JsHook == "undefined"){
