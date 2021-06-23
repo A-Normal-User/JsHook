@@ -28,4 +28,5 @@
     myalert2.DeleteHook();
     myalert1.DeleteHook();
     console.log("Hook测试完毕。");
+    alert("Hook测试完毕。")
 })();
